@@ -3,7 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "preview": "vite preview --host"
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview --host"
+  },
 
   "dependencies": {
     "axios": "^1.6.8",
