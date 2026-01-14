@@ -15,7 +15,7 @@ COPY . .
 
 # Copy .env if you have it
 # (optional: remove this line if you pass env vars via docker run)
-COPY .env.example .
+#COPY .env.example .
 
 # Expose port 3000 because your index.js uses process.env.PORT || 3000
 EXPOSE 3000
