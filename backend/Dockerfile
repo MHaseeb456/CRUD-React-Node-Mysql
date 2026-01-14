@@ -1,5 +1,5 @@
 # Use official Node.js LTS
-FROM node:16
+FROM node:16-bullseye
 
 # Set working directory
 WORKDIR /app
