@@ -13,7 +13,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy the rest of the application code
-COPY . 
+COPY . .
 
 # Add these lines to accept build arguments
 ARG VITE_API_URL
