@@ -31,8 +31,8 @@ let pool;
     app.use("/", router);
 
     // start the server
-    app.listen(port, () => {
-        console.log(`Backend server running at http://192.168.35.130:${port}`);
-
+   app.listen(port, '0.0.0.0', () => {
+    console.log(`Backend server running at http://0.0.0.0:${port}`);
     });
+
 })();
